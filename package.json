@@ -11,8 +11,11 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "chart.js": "^4.1.2",
     "vue": "^3.2.36",
-    "vue-router": "^4.0.15"
+    "vue-chartjs": "^5.1.0",
+    "vue-router": "^4.0.15",
+    "vuejs-paginate-next": "^1.0.2"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.0",

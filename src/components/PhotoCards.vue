@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted, watchEffect } from "vue";
-import roversApi from "../services/roversApi";
+import roversApi from "../services/postsApi";
 const props = defineProps({ roverName: String });
 const photos = ref([]);
 const sol = ref(1000);
