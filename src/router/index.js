@@ -9,14 +9,14 @@ const router = createRouter({
       component: () => import("../views/MapView.vue"),
     },
     {
-      path: "/posts",
+      path: "/",
       name: "posts",
       component: () => import("../views/PostsView.vue"),
     },
     {
       path: "/:catchAll(.*)",
       redirect: () => {
-        return { path: "/posts" };
+        return { path: "/" };
       },
     },
   ],

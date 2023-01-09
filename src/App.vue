@@ -15,7 +15,7 @@ import { RouterLink, RouterView } from "vue-router";
     <div class="wrapper">
       <nav>
         <RouterLink to="/map">Map</RouterLink>
-        <RouterLink to="/posts">Posts</RouterLink>
+        <RouterLink to="/">Posts</RouterLink>
       </nav>
     </div>
   </header>
