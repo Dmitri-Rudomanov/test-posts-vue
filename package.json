@@ -12,10 +12,14 @@
   },
   "dependencies": {
     "chart.js": "^4.1.2",
+    "leaflet": "^1.9.3",
+    "uniqid": "^5.4.0",
     "vue": "^3.2.36",
     "vue-chartjs": "^5.1.0",
     "vue-router": "^4.0.15",
-    "vuejs-paginate-next": "^1.0.2"
+    "vuejs-paginate-next": "^1.0.2",
+    "vuex": "^4.1.0",
+    "vuex-persistedstate": "^4.1.0"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.0",
